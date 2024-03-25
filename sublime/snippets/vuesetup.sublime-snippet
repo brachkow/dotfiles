@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+<script setup lang="ts">
+  ${1}
+</script>
+
+<template>
+  <div>${2}</div>
+</template>
+
+<style scoped lang="scss">
+  ${3}
+</style>
+
+]]></content>
+  <tabTrigger>setup</tabTrigger>
+  <description>Vue Setup with TS</description>
+  <scope >text.html.vue</scope >
+</snippet>
